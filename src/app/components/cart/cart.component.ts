@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { Product } from '../../products.service';
-import { CartService } from '../cart.service';
+import { Product } from '../../services/products.service';
+import { CartService } from 'src/app/services/cart.service';
 import { RouterModule } from '@angular/router';
 
 @Component({

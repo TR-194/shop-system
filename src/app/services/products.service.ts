@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Observable, of } from 'rxjs';
-import { mockProducts } from 'src/assets/database/mock-Products';
+import { mockProducts } from 'src/assets/database/productsmock';
 
 
 export interface Product {
